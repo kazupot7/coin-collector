@@ -2,8 +2,8 @@ import * as installer from 'electron-winstaller';
 import * as path from 'path';
 
 const settings = {
-    appDirectory: '../dist/packaged/CoinCollector-win32-x64',
-    outputDirectory: '../dist/deployed/windows',
+    appDirectory: './dist/packaged/CoinCollector-win32-x64',
+    outputDirectory: './dist/deployed/windows',
     authors: 'Eugenio Vinicio Berretta',
     loadingGif: './resources/loading-gif/installer.gif',
     noMsi: true,
